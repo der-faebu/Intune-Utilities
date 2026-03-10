@@ -1,25 +1,18 @@
 <#PSScriptInfo
-.VERSION 0.20
+.VERSION 1.0
 .GUID 715a6707-796c-445f-9e8a-8a0fffd778a4
-.AUTHOR Rudy Ooms
-.COMPANYNAME
-.COPYRIGHT
-.TAGS Windows, AutoPilot, Powershell
-.LICENSEURI
-.PROJECTURI https://www.github.com
-.ICONURI
-.EXTERNALMODULEDEPENDENCIES
-.REQUIREDSCRIPTS
+.AUTHOR Rudy Ooms, Fabian Gygax
+.COMPANYNAME 
+.COPYRIGHT Copyright (c) 2022 Rudy Ooms, Copyright (c) 2026 Fabian Gygax
+.TAGS Windows, AutoPilot, Intune, PowerShell
+.LICENSEURI https://opensource.org/licenses/MIT
+.PROJECTURI https://github.com/gygax-tech/intune-autopilot-fix
 .RELEASENOTES
-Version 0.1: Initial Release.
-version 0.2: added way more checks and fixes
-version 0.3: added the mdmurls check
-version 0.8: added the IME service check and reinstall functionality and improved some error handling
-version 0.12: added a failsafe when your device is missing the enrollmentid
-version 0.18: MMPC broke the script....
-version 0.20: Improved the code and fixed some bugs
-.PRIVATEDATA
+Version 0.1 - 0.20: Original versions by Rudy Ooms
+Version 1.0: Major improvements and refactoring
+Version 2.0: Refactoring, new module structure, unattended mode by Fabian Gygax
 #>
+
 <#
 .DESCRIPTION
 .SYNOPSIS
